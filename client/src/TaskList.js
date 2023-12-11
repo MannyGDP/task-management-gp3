@@ -7,40 +7,40 @@ import './TaskList.css'; // Import the TaskList styles
 function TaskList() {
     const sections = [
         {
-            title: 'Personal',
+            title: '#1',
             tasks: [
                 { description: 'Exercise', category: 'Health' },
                 { description: 'Read a book', category: 'Leisure' },
             ],
         },
         {
-            title: 'Work',
+            title: '#2',
             tasks: [
                 { description: 'Complete project', category: 'Work' },
                 { description: 'Attend meeting', category: 'Work' },
             ],
         },
         {
-            title: 'Work',
+            title: '#3',
             tasks: [
                 { description: 'Complete project', category: 'Work' },
                 { description: 'Attend meeting', category: 'Work' },
             ],
         },
         {
-            title: 'Work',
+            title: '#4',
             tasks: [
                 { description: 'Complete project', category: 'Work' },
                 { description: 'Attend meeting', category: 'Work' },
             ],
         }, {
-            title: 'Work',
+            title: '#5',
             tasks: [
                 { description: 'Complete project', category: 'Work' },
                 { description: 'Attend meeting', category: 'Work' },
             ],
         }, {
-            title: 'Work',
+            title: '#6',
             tasks: [
                 { description: 'Complete project', category: 'Work' },
                 { description: 'Attend meeting', category: 'Work' },
