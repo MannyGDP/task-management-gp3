@@ -1,0 +1,9 @@
+/* TaskSection.css */
+.task-section {
+    border: 1px solid #ccc;
+    /* Add your preferred border style and color */
+    padding: 10px;
+    /* Add padding for better visual appeal */
+    margin-bottom: 20px;
+    /* Add margin to create space between sections */
+}
