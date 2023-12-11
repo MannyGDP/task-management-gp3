@@ -1,7 +1,8 @@
 // TaskList.js
 import React from 'react';
 import TaskSection from './TaskSection';
-import './TaskSection.css'; // Import the CSS file for styling
+import './TaskSection.css'; // Import the TaskSection styles
+import './TaskList.css'; // Import the TaskList styles
 
 function TaskList() {
     const sections = [
@@ -20,7 +21,26 @@ function TaskList() {
             ],
         },
         {
-            title: 'Manny',
+            title: 'Work',
+            tasks: [
+                { description: 'Complete project', category: 'Work' },
+                { description: 'Attend meeting', category: 'Work' },
+            ],
+        },
+        {
+            title: 'Work',
+            tasks: [
+                { description: 'Complete project', category: 'Work' },
+                { description: 'Attend meeting', category: 'Work' },
+            ],
+        }, {
+            title: 'Work',
+            tasks: [
+                { description: 'Complete project', category: 'Work' },
+                { description: 'Attend meeting', category: 'Work' },
+            ],
+        }, {
+            title: 'Work',
             tasks: [
                 { description: 'Complete project', category: 'Work' },
                 { description: 'Attend meeting', category: 'Work' },
@@ -30,7 +50,7 @@ function TaskList() {
     ];
 
     return (
-        <div>
+        <div className="task-list">
             {sections.map((section, index) => (
                 <TaskSection key={index} sectionTitle={section.title} tasks={section.tasks} />
             ))}

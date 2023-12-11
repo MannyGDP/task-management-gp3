@@ -1,0 +1,6 @@
+/* TaskList.css (or your main CSS file) */
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
