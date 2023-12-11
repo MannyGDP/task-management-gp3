@@ -12,7 +12,7 @@ function Task({ description, category }) {
         <div>
             <label>
                 <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
-                {isChecked ? 'You have selected this task' : null} - {description} - Category: {category}
+                {isChecked ? 'Task Selected' : null} - {description} - Category: {category}
             </label>
             {/* Other task-related content */}
         </div>
